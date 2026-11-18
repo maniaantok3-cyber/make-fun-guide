@@ -61,6 +61,9 @@ the top 50 entries**: $150 for 1st, $80 for 2nd, $50 for 3rd, $20 each for 4th�
 $17 each for 11th–25th, and $13 each for 26th–50th. One place per entrant — a team
 enters under one account and splits any prize itself.
 
+Entries for this bounty close on 21 November 2026 at 10:30 UTC — after that,
+no new entries, and signups through your link stop counting.
+
 ## Before you start: four things you need
 
 - **An AI coding agent.** Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI,
@@ -94,7 +97,9 @@ node cli/makefun.mjs login --origin https://make.fun
 ```
 
 It prints something like `Open <link> and approve code XXXX-XXXX`. Open that link
-while signed in, check the code matches, and approve. If the command gives up
+while signed in, check the code matches, and approve. The code expires in 15
+minutes — if it lapses before you approve, just run the command again for a
+fresh one. If the command gives up
 waiting before you approve, just run it again. The first login also creates a
 Solana keypair on this machine and puts its wallet on your account — the commands
 later on sign your entries and claims with it. Under
